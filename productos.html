@@ -1,0 +1,2006 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produ.css">
+    <title>Yahar Cosmeticos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand mb-0 h1" width="50%" href="index.html"> 
+                     <img src="./img/logo_yahar_fomdo.png" width="200"> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <div class="btn-group">
+                            <a class="btn btn-md " href="productos.html #all" role="button">PRODUCTOS</a>
+                            <button type="button" class="btn btn-md  btn-bg-light dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+                            <span class="visually-hidden">Toggle Dropdown</span>
+                          </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="uñas.html">Uñas</a></li>
+                                <li><a class="dropdown-item" href="peluqueria.html">Peluqueria</a></li>
+                                <li><a class="dropdown-item" href="barberia.html">Barberia</a></li>
+                            </ul>
+                        </div>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="">ASESOR</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+	</header>
+    
+    <section id="catego">
+        <h2>Elige una categoria</h2>
+        <div class="botn">
+            <a href="uñas.html"><img src="./img/esmalte-para-las-unas.png" alt=""><p>Uñas</p></a>
+            <a href="peluqueria.html"><img src="./img/cepillo-para-tinte-de-cabello.png" alt=""><p>Peluqueria</p></a>
+            <a href="barberia.html"><img src="./img/peluqueria.png" alt=""><p>Barberia</p></a>
+        </div>
+    </section>
+    <section id="all">
+        <h2>PRODUCTOS A TU GUSTO</h2>
+        <hr>
+        <!---------------------------------------------------------------------------------ROW1--------------------------------------------------------------------------------------------->
+        <div class="row">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/cuticulas.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Removedores de cuticula</h5>
+                    <p class="card-text "> Precio Estandar
+                        <br> $185.000 (combo)
+                    </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="im col lg-6"> <img src="img/100NIKON/cuticulas.JPG"></div>
+                                            <div class="texte col lg-6">
+                                                <h4>Removedores de cuticula</h4>
+                                                <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                                <p>Precio Estandar
+                                                <br> $70.000 </p></div>
+                                                <div class="cont">
+                                                    <input type="button" id="btnrestar" value="-">
+                                                    <input type="number" id="msgcontador" value="1" min="1" readonly>
+                                                    <input type="button" id="btnsumar" value="+">
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-primary" onclick="add('combo removedor','msgcontador')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/gel-parahombre.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gel Capilar</h5>
+                    <p class="card-text">Precio estandar <br>$70.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal1" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/gel-parahombre.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar1" value="-">
+                                            <input type="number" id="msgcontador1" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar1" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Gel capilar','msgcontador1')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                <img src="img/100NIKON/acrilicos.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrilicos</h5>
+                    <p class="card-text">Precio estandar <br>$70.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal3" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel3">Acrilicos</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilicos.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Acrilicos</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para peluquerias, mantiene el las uñas hermosas y fuertes, uso completamente profesional.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar2" value="-">
+                                            <input type="number" id="msgcontador2" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar2" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrilicos','msgcontador2')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW2--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilico1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrilico piel</h5>
+                    <p class="card-text">Precio estandar <br>$35.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel4">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilico1.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Acrilico piel</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar3" value="-">
+                                            <input type="number" id="msgcontador3" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar3" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrilico piel','msgcontador3')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/esmaltesss.jpg" class="card-img-top pt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Esmaltes</h5>
+                    <p class="card-text ">Precio Estandar
+                        <br> $50.000
+                    </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal4" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel4">Esmaltes</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/esmaltesss.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Esmaltes</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el cuidador y decoracion de las uñas.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar4" value="-">
+                                            <input type="number" id="msgcontador4" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar4" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Esmaltes','msgcontador4')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/removedores.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Removedores de esmalte</h5>
+                    <p class="card-text ">Precio estandar <br>$185.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal5" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Removedores de esmalte</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/removedores.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Removedores de esmalte</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el cuidador y decoracion de las uñas.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar5" value="-">
+                                            <input type="number" id="msgcontador5" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar5" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Removedores de esmalte','msgcontador5')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW3--------------------------------------------------------------------------------------------->
+
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilicots.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrilicos Transparentes</h5>
+                    <p class="card-text">Precio estandar <br>$70.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal6" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Acrilicos</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilicots.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Acrilicos Transparentes</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el cuidador y decoracion de las uñas.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $0.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar6" value="-">
+                                            <input type="number" id="msgcontador6" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar6" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrilicos Transparentes','msgcontador6')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+                <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                    <img src="img/100NIKON/primer.JPG" class="card-img-top mt-2" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Primer</h5>
+                        <p class="card-text">Precio estandar <br>$25.000 </p>
+                        <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal7" class="btn">VER PRODUCTO </a>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Primer</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="im col lg-6"> <img src="img/100NIKON/primer.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Primer</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el cuidador y decoracion de las uñas.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar7" value="-">
+                                            <input type="number" id="msgcontador7" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar7" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Primer','msgcontador7')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/removedormagic.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Removedor magico</h5>
+                    <p class="card-text">Precio estandar <br>$35.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal8" class="btn">VER PRODUCTO </a>
+                
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Removedor magico</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/removedormagic.JPG"></div>
+                                        <div class="texte col lg-6">
+                                            <h4>Removedor magico</h4>
+                                            <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el cuidador y decoracion de las uñas.<br></p>
+                                            <p>Precio Estandar
+                                            <br> $70.000 </p>
+                                        </div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar8" value="-">
+                                            <input type="number" id="msgcontador8" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar8" value="+">
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" onclick="add('Remocedor magico','msgcontador8')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"  aria-controls="staticBackdrop">Agregar al carrito</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!---------------------------------------------------------------------------------ROW4--------------------------------------------------------------------------------------------->
+
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceit cholate.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite de chocolate</h5>
+                    <p class="card-text">Precio estandar <br>$25.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal9" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/aceit cholate.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Aceite de chocolate</h4>
+                                        <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el mantenimiento del cuerpo, mantiene la piel sueve e hidratada.<br></p>
+                                        <p>Precio Estandar
+                                        <br> $25.000 </p>
+                                    </div>
+                                    <div class="cont">
+                                        <input type="button" id="btnrestar9" value="-">
+                                        <input type="number" id="msgcontador9" value="1" min="1" readonly>
+                                        <input type="button" id="btnsumar9" value="+">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceite de chocolate','msgcontador9')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceit almendras.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite de almendras</h5>
+                    <p class="card-text">Precio estandar <br>$30.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal10" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/aceit almendras.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Aceite de almendras</h4>
+                                        <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el mantenimiento del cuerpo, mantiene la piel sueve e hidratada.<br></p>
+                                        <p>Precio Estandar
+                                        <br> $30.000 </p>
+                                    </div>
+                                    <div class="cont">
+                                        <input type="button" id="btnrestar10" value="-">
+                                        <input type="number" id="msgcontador10" value="1" min="1" readonly>
+                                        <input type="button" id="btnsumar10" value="+">
+                                    </div>
+                                </div>
+                            
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceite de almendras','msgcontador10')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"  aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceite ricino2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite de ricino</h5>
+                    <p class="card-text">Precio estandar <br>$80.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal11" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aceite de aguacate</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/aceite ricino2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Aceite de ricino</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para el mantenimiento del cuerpo, mantiene la piel sueve e hidratada.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $80.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar11" value="-">
+                                            <input type="number" id="msgcontador11" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar11" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceites de ricino','msgcontador11')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW5--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceite ricino2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite de ricino</h5>
+                    <p class="card-text">Precio estandar <br>$70.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal12" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/aceite ricino2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Aceite de ricinor</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar12" value="-">
+                                            <input type="number" id="msgcontador12" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar12" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceites de ricino','msgcontador12')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceites r.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceites de ricino</h5>
+                    <p class="card-text">Precio estandar <br>$25.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal13" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/aceites r.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Aceites de ricino</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar13" value="-">
+                                            <input type="number" id="msgcontador13" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar13" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceites de ricino','msgcontador13')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceitnaranja.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceite de naranja</h5>
+                    <p class="card-text">Precio estandar <br>$35.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal14" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel"></h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/aceitnaranja.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Aceite de naranja</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar14" value="-">
+                                            <input type="number" id="msgcontador14" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar14" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceites de naranjas','msgcontador14')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>                             </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW5--------------------------------------------------------------------------------------------->
+
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/aceites n.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Aceites de naranjas</h5>
+                    <p class="card-text">Precio estandar <br>$23.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal15" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Aceite de almendras</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src=img/100NIKON/aceites n.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar15" value="-">
+                                            <input type="number" id="msgcontador15" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar15" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Aceites de naranjas','msgcontador15')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acondicionador1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acondicionador de chicle
+                    </h5>
+                    <p class="card-text">Precio estandar <br>$45.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal16" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acondicionador1.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar16" value="-">
+                                            <input type="number" id="msgcontador16" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar16" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acondicionadores de chicle','msgcontador16')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acondicionador2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acondicionador de chicle</h5>
+                    <p class="card-text">Precio estandar <br>$95.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal17" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acondicionador2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar17" value="-">
+                                            <input type="number" id="msgcontador17" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar17" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acondicionadores de chicle','msgcontador17')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW6--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                <img src="img/100NIKON/acondicionadores.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acondicionadores de chicle</h5>
+                    <p class="card-text">Precio estandar <br>$70.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal18" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acondicionadores.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar18" value="-">
+                                            <input type="number" id="msgcontador18" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar18" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acondicionadores de chicle','msgcontador18')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilico1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrilico piel</h5>
+                    <p class="card-text">Precio estandar <br>$70.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal19" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilico1.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar19" value="-">
+                                            <input type="number" id="msgcontador19" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar19" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrilico piel','msgcontador19')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilico2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrilico piel</h5>
+                    <p class="card-text">Precio estandar <br>$10.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal20" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilico2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar20" value="-">
+                                            <input type="number" id="msgcontador20" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar20" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrilico piel','msgcontador20')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW7--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilico3.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrilico piel</h5>
+                    <p class="card-text">Precio estandar <br>$25.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal21" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilico3.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                        <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                        <p>Precio Estandar
+                                        <br> $70.000 </p>
+                                    </div>
+                                    <div class="cont">
+                                        <input type="button" id="btnrestar21" value="-">
+                                        <input type="number" id="msgcontador21" value="1" min="1" readonly>
+                                        <input type="button" id="btnsumar21" value="+">
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrilico piel','msgcontador21')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilicos.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">acrilico piel</h5>
+                    <p class="card-text">Precio estandar <br>$30.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal22" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilicos.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar22" value="-">
+                                            <input type="number" id="msgcontador22" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar22" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('acrilico piel','msgcontador22')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilicot1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrlico Transparente</h5>
+                    <p class="card-text">Precio estandar <br>$40.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal23" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilicot1.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar23" value="-">
+                                            <input type="number" id="msgcontador23" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar23" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrlico Transparente','msgcontador23')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROW8--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilicot2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrlico Transparente</h5>
+                    <p class="card-text">Precio estandar <br>$25.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal24" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilicot2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar24" value="-">
+                                            <input type="number" id="msgcontador24" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar24" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrlico Transparente','msgcontador24')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/acrilicot3.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Acrlico Transparente</h5>
+                    <p class="card-text">Precio estandar <br>$35.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal25" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/acrilicot3.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar25" value="-">
+                                            <input type="number" id="msgcontador25" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar25" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Acrlico Transparente','msgcontador25')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/cera.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Cera para depilar</h5>
+                    <p class="card-text">Precio estandar <br>$50.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal26" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/cera.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar26" value="-">
+                                            <input type="number" id="msgcontador26" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar26" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                
+                                    <button type="button" class="btn btn-primary" onclick="add('Cera para depilar','msgcontador26')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROM9--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/gel exfoliant.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gel exfoliante</h5>
+                    <p class="card-text">Precio estandar <br>$15.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal27" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal27" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/gel exfoliant.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar27" value="-">
+                                            <input type="number" id="msgcontador27" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar27" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Gel exfoliante','msgcontador27')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/gel frio.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gel frio</h5>
+                    <p class="card-text">Precio estandar <br>$15.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal28" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/gel frio.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar28" value="-">
+                                            <input type="number" id="msgcontador28" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar28" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Gel frio','msgcontador28')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                <img src="img/100NIKON/gel termoreductor.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Gel termoreductor</h5>
+                    <p class="card-text">Precio estandar <br>$120.000 (combo)</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal29" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal29" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/gel termoreductor.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar29" value="-">
+                                            <input type="number" id="msgcontador29" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar29" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Gel termoreductor','msgcontador29')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------------------------------------------------------------------------------ROw10--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                <img src="img/100NIKON/pulidor.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pulidor de uñas</h5>
+                    <p class="card-text">Precio estandar <br>$95.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal30" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar30" value="-">
+                                            <input type="number" id="msgcontador30" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar30" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Pulidor de uñas','msgcontador30')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                <img src="img/100NIKON/geles.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Geles</h5>
+                    <p class="card-text">Precio estandar <br>$50.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal31" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal31" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/geles.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar31" value="-">
+                                            <input type="number" id="msgcontador31" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar31" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Geles','msgcontador31')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/laca-capilar.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Laca capilar</h5>
+                    <p class="card-text">Precio estandar <br>$20.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal32" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal32" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar32" value="-">
+                                            <input type="number" id="msgcontador32" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar32" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Laca capilar','msgcontador32')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROw11--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/lampara20.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lampara mini sun</h5>
+                    <p class="card-text">Precio estandar <br>$15.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal33" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal33" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar33" value="-">
+                                            <input type="number" id="msgcontador33" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar33" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Lampara mini sun','msgcontador33')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/lampara48.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Laampara 40 wats</h5>
+                    <p class="card-text">Precio estandar <br>$10.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal34" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal34" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar34" value="-">
+                                            <input type="number" id="msgcontador34" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar34" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Laampara 40 wats','msgcontador34')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/limas.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Paquete limas</h5>
+                    <p class="card-text">Precio estandar <br>$25.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal35" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal35" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar35" value="-">
+                                            <input type="number" id="msgcontador35" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar35" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Paquete limas','msgcontador35')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROw12--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/monomero1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Monomero</h5>
+                    <p class="card-text">Precio estandar <br>$40.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal36" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal36" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar36" value="-">
+                                            <input type="number" id="msgcontador36" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar36" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Monomero','msgcontador36')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/monomero2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Monomero</h5>
+                    <p class="card-text">Precio estandar <br>$25.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal37" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal37" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar37" value="-">
+                                            <input type="number" id="msgcontador37" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar37" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Monomero','msgcontador37')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/monomeros.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Monomeros</h5>
+                    <p class="card-text">Precio estandar <br>$25.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal38" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal38" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar38" value="-">
+                                            <input type="number" id="msgcontador38" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar38" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Monomeros','msgcontador38')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROw13--------------------------------------------------------------------------------------------->
+        <div class="row ">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/shampoo 1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Shampoo</h5>
+                    <p class="card-text">Precio estandar <br>$45.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal39" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal39" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/shampoo 1.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar39" value="-">
+                                            <input type="number" id="msgcontador39" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar39" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Shampoo','msgcontador39')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/shampoo 2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Shampoo</h5>
+                    <p class="card-text">Precio estandar <br>$45.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal40" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal40" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/shampoo 2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar40" value="-">
+                                            <input type="number" id="msgcontador40" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar40" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Shampoo','msgcontador40')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/shampoos.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Shampoo</h5>
+                    <p class="card-text">Precio estandar <br>$16.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal41" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal41" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/shampoos.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar41" value="-">
+                                            <input type="number" id="msgcontador41" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar41" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Shampoo','msgcontador41')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROw14--------------------------------------------------------------------------------------------->
+        <div class="row">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/stamping.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Stamping</h5>
+                    <p class="card-text">Precio estandar <br>$20.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal42" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal42" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar42" value="-">
+                                            <input type="number" id="msgcontador42" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar42" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Stamping','msgcontador42')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/Taladro.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pulidor</h5>
+                    <p class="card-text">Precio estandar <br>$60.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal43" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal43" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar43" value="-">
+                                            <input type="number" id="msgcontador43" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar43" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Pulidor','msgcontador43')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/tratamiento1.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamiento de coco </h5>
+                    <p class="card-text">Precio estandar <br>$10.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal44" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal44" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/tratamiento1.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar44" value="-">
+                                            <input type="number" id="msgcontador44" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar44" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Tratamiento de coco','msgcontador44')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------------------------------------------------------ROw15--------------------------------------------------------------------------------------------->
+        <div class="row">
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/100NIKON/tratamiento2.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamiento de coco</h5>
+                    <p class="card-text">Precio estandar <br>$30.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal45" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal45" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/tratamiento2.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar45" value="-">
+                                            <input type="number" id="msgcontador45" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar45" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Tratamiento de coco','msgcontador45')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3 m2 border-0">
+                <img src="img/100NIKON/tratamientos.JPG" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Tratamientos de coco</h5>
+                    <p class="card-text">Precio estandar <br>$10.000 </p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal46" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal46" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/100NIKON/tratamientos.JPG"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar46" value="-">
+                                            <input type="number" id="msgcontador46" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar46" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Tratamientos de coco','msgcontador46')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="card col-xs-12 col-sm-6 col-md-6 col-xl-3  m2 border-0">
+                <img src="img/pincel.jpg" class="card-img-top mt-2" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pincel profesional</h5>
+                    <p class="card-text">Precio estandar <br>$25.000</p>
+                    <a href="#" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal47" class="btn">VER PRODUCTO </a>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal47" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="im col lg-6"> <img src="img/gel para hombre.jpg"></div>
+                                    <div class="texte col lg-6">
+                                        <h4>Gel capilar</h4>
+                                    <p class="p1"><strong>INFORMACION:</strong><br>Esecialmente elaborado para Barberias, mantiene el cabello fijado y fuerte todo el día.<br></p>
+                                   <p>Precio Estandar
+                                        <br> $70.000 </p></div>
+                                        <div class="cont">
+                                            <input type="button" id="btnrestar47" value="-">
+                                            <input type="number" id="msgcontador47" value="1" min="1" readonly>
+                                            <input type="button" id="btnsumar47" value="+">
+                                        </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" onclick="add('Pincel profesional','msgcontador47')" data-bs-target="#staticBackdrop" data-bs-toggle="offcanvas"   aria-controls="staticBackdrop">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </section>
+    
+
+    <div class="offcanvas offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="staticBackdropLabel">Mi Carrito</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h2>Lista de Productos</h2>
+            <div id="lista_de_carrito" class="w-100 px-2 my-3">
+            </div>
+            <div>
+                <button class="btn btn-primary" type="button" onclick="openwin()">HACER PEDIDO</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/contador.js"></script>
+    <script src="./js/carrito.js"></script>
+    <script src="./bootstrap-5.2.2-dist/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
+    </script>
+   <footer >
+    <div class="row col-md-12">
+    
+        <div class="box1 col-md-4">
+            <h2>Contactanos</h2>
+            <p><b>Dirección:</b> Cl. 4 #71c 65, Kennedy, Bogotá, Cundinamarca</p>
+            <p><b>Telefono: </b>3202585903</p> 
+        </div>
+        
+        <div class="box2 col-md-4">
+            <h2>Sobre Nosotros</h2>
+            <p>Laboratorio de cosmeticos con estandares de calidad internacionales de origen colombiano.</p>
+        </div> 
+    
+        <div class="box3 col-md-4">
+            <h2>Siguenos</h2>
+            <div class="red-social">
+                <a href="https://instagram.com/yaharcosmeticos_co?igshid=N2ZiY2E3YmU=" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                <a href="https://www.facebook.com/harold.p.gonzalez?mibextid=ZbWKwL"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<div class="dos col-md-12">© 2022 <b>Yahar cosmeticos</b> - Todos los Derechos Reservados.</div>
+</body>
+
+</html>
