@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap'); 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+
+ h1,h2,h3,h4,h5,h6{
+    font-family: 'Inder', sans-serif;
+ }
+section {
+    width: 100%;
+    min-height: 90vh;
+    
+}
+
+body{
+    outline: auto;
+ }
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+nav{
+     width: 100%;
+    height: 100%;
+    background-color: rgb(179, 116, 243);
+    margin-top: -20px;
+    margin-bottom: -20px;
+    box-shadow: 0px 0px 10px grey;
+    z-index: 1;		  						 
+}
+ nav .btn-group{
+    margin-top: 10px;
+    padding-right: 50px;
+}
+nav li {
+    margin-top: 10px;
+    padding-right: 50px;
+}
+#navbarNavDropdown{
+    justify-content: center;
+
+}
+nav ul li:hover a{
+    border-bottom: 2px black solid;
+    
+}
+nav ul li a{
+    font-family: 'Inder', sans-serif;
+    color: black;
+    
+}
+nav ul li a i{
+    color: black;
+    font-size: 1.7em;
+    margin-left: 200px;
+} 
+nav .btn-group a {
+    font-family: 'Inder', sans-serif;
+}
+nav .btn-group:hover a {
+    border-bottom: 2px black solid;
+}
+
+nav #navbarNavDropdown{
+    
+}
+#slido{
+padding: 0%;
+}
+#slido .carouselExampleIndicators{
+
+}
+#slido .carousel-inner{
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+}
+#slido .carousel-inner img{
+    margin-top: 10%;
+}
+#slido hr{
+    width: 80%;
+    margin-left: 10%;
+    border:2px solid rgb(25, 2, 175);
+    /*border:2px solid rgb(197, 96, 255); */
+    
+}
+#catego{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgba(79, 61, 194, 0.156);
+}
+#catego h2{
+    color: rgba(78, 61, 194, 1);
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    font-family: 'Inder', sans-serif;
+}
+#catego .botn{
+    margin-top: 30px;
+    width: 97%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+}
+#catego .botn{
+    transform: scale(1);
+}
+#catego .botn img{
+    width: 35%;
+    margin: auto;
+}
+
+#catego .botn p{
+    width: 100%;
+    text-align: center;
+    font-family: 'Inder', sans-serif;
+    color:rgba(78, 61, 194, 1) ;
+    font-size: 30px;   
+}
+#catego .botn a{
+    text-decoration: none;
+
+ width: 300px;
+    margin: auto;
+    text-align: center;
+}
+#catego .botn:hover a{
+    
+    filter: grayscale(0.3);
+}
+#catego .botn a:hover img{
+    transform: scale(0.9);
+}
+#sliders{
+    width: 100%;
+    min-height: 90vh;
+    padding: 0px;
+    background-color: rgba(212, 111, 168, 0.139);
+
+}
+#sliders .row{
+    width: 100%;
+    height: 40%;
+
+}
+#sliders h2{
+    width: 100%;
+    color: rgba(78, 61, 194, 1);
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    font-family: 'Inder', sans-serif;
+}
+#sliders p {
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.ttf') format('truetype');
+    font-weight: 500;
+    font-size:14px;
+
+}
+#sliders .textos{
+    margin: 0;
+    margin-top: 2%;
+}
+#sliders .textos p{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(105, 105, 105);
+}
+
+#sliders .destacados{
+    height: 50px;
+}
+#sliders .btn{
+width: 100%;
+padding: 0;
+color: white;
+border:auto;
+margin-top:10px;
+background-color:rgb(78, 61, 194) ;
+font-family: 'Inder', sans-serif;
+}
+#sliders .row .card:hover .btn{
+    filter: brightness(1.5);
+}
+#sliders .row .card:hover img{
+    transform: scale(0.9);
+    filter: grayscale(0.8);
+}
+#sliders .container-fluid .row{
+    width: 90%;
+    margin-left: 3%;
+}
+
+#sliders .card{
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+  
+}
+#sliders .carousel-item .row{
+
+}
+#sliders .card-body{
+    padding: 0%;
+    height: 50%;
+    
+    
+}
+#sliders .card-body h5{
+    margin: 10px 0px;
+}
+#sliders .boton{
+    text-align: center;
+    margin-top: 370px;
+    
+}
+#sliders .carousel-control-prev{
+    margin-left:-30px;
+    
+}
+#sliders .carousel-control-next-icon{
+    margin-left:50px;
+    
+}
+
+footer{
+    background-color: rgba(150, 44, 255, 0.486);
+    width: 100%;
+    display: flex;
+	    overflow: hidden;				 
+}
+footer .row{
+    margin-left: 5%;
+}
+.box3{
+    font-size: 2em;
+    text-align: center;
+}
+.dos{
+    background-color: rgba(150, 44, 255, 0.685);
+    text-align: center;
+}
+footer a i{
+    color: black;
+}
+
+
+
+@media screen and (max-width:1400) and (min-width:992px) {
+   
+    #sliders .btn{
+        width: 100%;
+        padding: 0;
+        color: white;
+        border:auto;
+        margin-top:10px;
+        background-color:rgb(78, 61, 194) ;
+        
+        }
+
+footer .dos{
+    border-top: 1px solid grey;
+    margin-top: 50%;
+    text-align: center;
+    width: 194%;
+
+}
+}
+@media screen and (max-width:992px) and (min-width:768px) {
+    a .navbar-brand{
+        width: 50%;
+    }
+
+    #sliderS{
+        width: 100%;
+        min-height: 97vh;
+        background-color: rgba(212, 111, 168, 0.139);
+    }
+    #sliders .card{
+        margin: 10px;
+        padding: 10px;
+        width: 80%;
+    }
+    #sliders .btn{
+        width: 100%;
+        padding: 0;
+        color: white;
+        border:auto;
+        margin-top:10px;
+        background-color:rgb(78, 61, 194) ;
+        
+        }
+
+footer .dos{
+    border-top: 1px solid grey;
+    margin-top: 50%;
+    text-align: center;
+    width: 194%;
+
+}
+}
+
+@media screen and (max-width:768px) and (min-width:577px) {
+    a .navbar-brand{
+        width: 50%;
+    }
+
+    #sliderS{
+        width: 100%;
+        min-height: 97vh;
+        background-color: rgba(212, 111, 168, 0.139);
+    }
+    #sliders .card{
+        margin: 10px;
+        padding: 10px;
+        width: 80%;
+    }
+    #sliders .btn{
+        width: 100%;
+        padding: 0;
+        color: white;
+        border:auto;
+        margin-top:10px;
+        background-color:rgb(78, 61, 194) ;
+        
+        }
+
+footer .dos{
+    border-top: 1px solid grey;
+    margin-top: 50%;
+    text-align: center;
+    width: 194%;
+
+}
+}
+@media screen and (max-width:618px) {
+    #sliders{
+        display: none;
+    }
+    
+}

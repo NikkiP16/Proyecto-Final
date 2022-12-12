@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Inder&family=Roboto+Mono:ital,wght@0,100;1,100&display=swap'); 
+
+nav{
+    width: 100%;
+   height: 100%;
+   background-color: rgb(179, 116, 243);
+   margin-top: -20px;
+   margin-bottom: -20px;
+   box-shadow: 0px 0px 10px grey;
+   z-index: 1;		  						 
+}
+nav .btn-group{
+   margin-top: 10px;
+   padding-right: 50px;
+}
+nav ul{
+}
+nav li {
+   margin-top: 10px;
+   padding-right: 50px;
+}
+#navbarNavDropdown{
+   justify-content: center;
+
+}
+nav ul li a{
+   font-family: 'Inder', sans-serif;
+   color: black;
+   
+}
+nav ul li a i{
+   color: black;
+   font-size: 1.7em;
+   margin-left: 200px;
+} 
+nav .btn-group a {
+   font-family: 'Inder', sans-serif;
+}
+nav #navbarNavDropdown{}
+#catego{
+    margin-top: 1px;
+    margin-bottom: 20px;
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgba(79, 61, 194, 0.156);
+}
+#catego h2{
+    color: rgba(78, 61, 194, 1);
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    font-family: 'Inder', sans-serif;
+}
+#catego .botn{
+    margin-top: 100px;
+    width: 97%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+
+}
+#all{
+}
+#all .bot{
+    margin-left: 90px;
+} 
+
+#all .bot img{
+    width: 200px;
+    margin-bottom: 150px;
+    margin: 50px;
+}
+
+#all h2{  
+    width: 100%;
+    color: rgba(78, 61, 194, 1);
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;  
+}
+
+#all hr{
+    width: 90%;
+    border: 5px solid  rgb(149, 44, 255);
+    border-radius: 10px;
+    margin-left:60px ;
+    margin-bottom: 60px;
+}
+#all .row{
+    overflow: hidden; 
+}
+#all .card{
+    margin: 10px;
+    padding: 10px;
+    height: 80%;
+}
+#all .btn{
+    width: 110%;
+    padding: 0;
+    color: white;
+    border:auto;
+    margin-top:10px;
+    margin-left: -10px;
+    background-color:rgb(78, 61, 194) ;
+    font-family: 'Inder', sans-serif;
+    }
+    #all .card-body:hover .btn{
+        filter: brightness(1);
+    }
+#all .modal-body{
+    display: flex;
+
+}
+#all .row{
+    width: 85%;
+    margin-left: 10%;
+}
+
+
+#all .card{
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+}
+#all .row .card:hover .btn{
+    filter: brightness(1.5);
+}
+#all .row .card:hover img{
+    transform: scale(0.9);
+    filter: grayscale(0.8);
+}
+#all .card-body{
+}
+#all .modal-dialog{
+    width: 100%;
+    height: 100%;
+margin-left: 25%;
+}
+#all .modal-content{
+    width: 130%;
+    height: 70vh;
+    
+}
+#all .modal-header{
+
+}
+#all .modal-body {
+   width: 100%;
+   height: 50%;
+}
+#all .modal-body img{
+    width: 100%;
+    height: 80%;
+    margin-top: 30px;
+    
+}
+#all .btn-close{
+    background-color: rgb(149, 44, 255);
+    font-family: 'Inder', sans-serif;
+}
+#all .modal-body .texte{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    width: 150%;
+    
+}
+#all .modal-body .texte h4{
+    font-size: 40px;
+    font-weight: 600;
+    color:rgb(149, 44, 255) ; 
+    margin-left: 55px;
+
+}
+#all .modal-body .texte .p1{
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.ttf') format('truetype');
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    
+}
+#all .modal-body .texte p{
+    font-family: 'Century Gothic';
+    src: url('CenturyGothic.ttf') format('truetype');
+    display: flex;
+    flex-wrap: wrap;   
+}
+#all .modal-footer{
+    width: 100%;
+    height: 10%;
+}
+#all .modal-footer .btn{
+font-family: 'Inder', sans-serif;
+width: 50%;
+margin-top: -1%;
+} 
+.cont{
+    position: absolute;
+    display: flex;
+    height: 10%;
+    top: 70%;
+    left: 70%;
+    width: 50%;
+}
+.cont input{
+    width: 50px;
+
+}
+.cont #btnsumar{
+    border-style: none;
+    width: 50px;
+    
+}
+.cont #btnrestar{
+    border-style: none;
+    width: 50px;
+}
+.cont #msgcontador{
+    width: 20px;
+    height: 10%;
+    margin-top: 5px;
+    text-align: center;
+}
+
+footer a i{
+    color: black;
+}
+
+@media screen and (max-width:1400) and (min-width:992px) {
+    #all .modal-dialog{
+        margin-right: 550px;
+    }
+    #all .modal-content{
+        width: 700px;
+        height: 70vh;
+        
+    }
+    #all .modal-header{
+      width: 250px;
+
+    }
+    #all .modal-body {
+        width: 100%;
+       
+       
+    }
+    #all .modal-dialog{
+        width: 100%;
+        height: 100%;
+   
+    }
+    #all .modal-body .im{
+        width: 160%;
+        /*order: 20px greenyellow solid;*/
+    }
+    #all .modal-body img{
+        width: 100%;
+        height: 80%;
+        margin-top: 30px;
+        
+    }
+    #all .btn-close{
+        background-color: rgb(149, 44, 255);
+        font-family: 'Inder', sans-serif;
+    }
+    #all .modal-body .texte{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        
+    }
+    #all .modal-body .texte h4{
+        font-size: 40px;
+        font-weight: 600;
+        color:rgb(149, 44, 255) ; 
+    
+    }
+    #all .modal-body .texte .p1{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+    #all .modal-body .texte p{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;   
+    }
+   
+    #all .modal-footer .btn{
+    font-family: 'Inder', sans-serif;
+    width: 50%;
+    margin-top: -60px;
+    } 
+}
+
+@media screen  and (max-width:768px) and (min-width:330px) {
+    body{
+    }
+    nav{
+        width: 100%;
+        height: 100%;
+    }
+    nav .btn-group{
+        font-family: 'Inder', sans-serif;
+        width: 2px;
+        margin-right:300px ;
+    }
+    nav ul li{
+        margin-left: 10px;
+    }
+    #all{
+        
+    }
+    #all hr{
+        width: 90%;
+        border: 5px solid  rgb(149, 44, 255);
+        border-radius: 10px;
+        margin-left:30px ;
+        margin-bottom: 60px;
+    }
+    #all h2{
+        width: 100%;
+    color: rgba(78, 61, 194, 1);
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;  
+   
+}
+    #all .btn{
+        width: 110%;
+        padding: 0;
+        color: white;
+        border:auto;
+        margin-top:10px;
+        margin-left: -10px;
+        background-color:rgb(78, 61, 194) ;
+        }
+    #all .modal-body{
+        width: 100%;
+        height: 80%;
+        margin-top:10%;
+    }
+    #all .modal-header{
+        margin-bottom: 10%;
+        width: 100%;
+        background-color: white;
+    }
+    #all .modal-content{
+       width: 70%;
+     height: 70vh;
+     display: inline;
+        border: 0px;
+    }
+    #all .modal-dialog{
+        width: 60%;
+        height: 100%;
+    }
+    #all .row{
+        width: 90%;
+    }
+    
+    #all .card{
+        width: 90%;
+
+    }
+    #all .row .card:hover .btn{
+        filter: brightness(1.5);
+    }
+    #all .row .card:hover img{
+        transform: scale(0.9);
+        filter: grayscale(0.8);
+    }
+    #all .card-body{
+    }
+    #all .modal-dialog{
+        background-color: rgb(255, 255, 255);
+        height: 100%;
+        
+    }
+    #all .modal-content{
+    
+        width: 150%;
+        height: 70vh;
+    }
+    #all .modal-body{
+        display: block;
+        margin-top: -10%;
+    }
+
+    #all .modal-body .im{
+        width: 80%;
+        margin-left: 10%;
+
+        /*order: 20px greenyellow solid;*/
+    }
+    #all .modal-body img{
+        width: 100%;
+        height: 70%;
+        margin-top: -1%;
+        
+    }
+    #all .btn-close{
+        background-color: rgb(149, 44, 255);
+      
+    }
+    #all .modal-body .texte{
+        margin-top: 10%;
+        margin-right: 10px;
+        width: 100%;
+        height: 68%;
+       
+        
+    }
+    #all .modal-body .texte h4{
+        width: 100%;
+        text-align: center;
+        font-size: 36px;
+        font-weight: 600;
+        color:rgb(149, 44, 255) ;
+        margin-right: 50%;
+        
+    
+    }
+    #all .modal-body .texte .p1{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        position: relative;
+        
+    }
+    #all .modal-body .texte p{
+        font-family: 'Century Gothic';
+        src: url('CenturyGothic.ttf') format('truetype');
+        display: flex;
+        flex-wrap: wrap;   
+    }
+    #all .cont{
+        position: absolute;
+        top: 100%;
+        left: 70%;
+       width: 50%;
+       height: 10%;
+        display: flex;
+
+    }
+    .cont input{
+        width: 15%;
+        height: 80%;
+    
+    }
+    .cont #msgcontador{
+        margin-top:-1.5%;
+        text-align: center;
+        border: 0%;
+    }
+    #all .modal-footer{
+        background-color: white;
+        width: 100%;
+       margin-top: 18%;
+        height: 10%;
+    }
+    #all .modal-footer .btn{
+    font-family: 'Inder', sans-serif;
+    margin-top: -17%;
+    width: 100%;
+    background-color:rgb(149, 44, 255) ; 
+    } 
+}
+
